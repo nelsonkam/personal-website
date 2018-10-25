@@ -1,0 +1,8 @@
+body {
+  font-family: "Cerebri Sans", sans-serif;
+}
+@media screen and (min-width: 992px) {
+  .project:hover  .project-info {
+    display: flex;
+  }
+}

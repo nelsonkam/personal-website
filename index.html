@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Nelson Kamga</title>
+  <link rel="stylesheet" href="/styles/cerebri.css">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/index.css">
 </head>
-<body class="bg-grey-lightest h-screen w-screen flex flex-col">
-  <div class="flex flex-col justify-center items-center text-center px-4" style="height: 80%;">
+<body class="w-screen flex flex-col">
+  <div class="bg-grey-lightest flex flex-col justify-center items-center text-center px-4" style="height: 75vh;">
     <img src="/assets/profile.jpeg" alt="A picture of me" class="h-32 w-32 rounded-full shadow">
     <p class="mt-6 text-2xl">Hi, I'm <strong class="font-black">Nelson Kamga</strong> ! </p>
     <p class="mt-4 text-xl max-w-md">I'm a <strong>software developer by day & indie maker by night and weekends</strong> (<em>at least in the making</em>).</p>
@@ -21,9 +23,104 @@
       <a target="_blank" href="https://github.com/nelsonkam" class="mx-2 bg-black rounded-full h-12 w-12 text-white flex items-center justify-center text-3xl"><i class="fab fa-github"></i></a>
       <a target="_blank" href="mailto:kamganelson@gmail.com?subject=Hi!" class="mx-2 bg-grey rounded-full h-12 w-12 text-white flex items-center justify-center text-2xl"><i class="fa fa-envelope"></i></a>
     </div>
-    <footer class="h-12 absolute pin-b">
-      made with <span style="color: #e25555;"> ❤️ </span> on 🌏
-    </footer>
   </div>
+  <div class="p-8">
+    <h2 class="text-center text-4xl my-4">Projects</h2>
+    <div class="my-12 w-full flex flex-col items-center">
+      <div class="project my-8 flex justify-center relative items-start flex-wrap">
+        <img src="/assets/leqube.png" class="w-full h-auto shadow max-w-xl rounded" alt="LeQube's Website">
+        <div class="project-info w-full h-full justify-center items-center lg:absolute bg-white lg:hidden py-4" style="opacity: .95">
+          <div>
+            <p class="text-3xl my-3 font-bold">LeQube</p>
+            <p class="max-w-sm text-xl">LeQube is an initiative to help young people learn web development through online courses in French. We have helped over 20 students learn programming through this initiative.</p>
+            <div class="flex my-6">
+              <a class="flex shadow no-underline rounded pt-4 pb-3 px-6 bg-black text-white font-bold uppercase" href="http://leqube.co">Visit&nbsp;<span class="hidden md:block">website</span></a>
+              <a class="shadow no-underline rounded pt-4 pb-3 px-6 bg-black text-white font-bold uppercase mx-6" href="http://leqube.co">source code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project my-8 flex justify-center relative items-start flex-wrap">
+        <img src="/assets/trezzo.png" class="w-full h-auto shadow max-w-xl h-auto rounded" alt="Trezzo's Website">
+        <div class="project-info w-full h-full justify-center items-center lg:absolute bg-white lg:hidden py-4" style="opacity: .95">
+          <div>
+            <p class="text-3xl my-3 font-bold">Trezzo</p>
+            <p class="max-w-sm text-xl">A SaaS app that let's you collect feedback from your users directly into a Trello board. <br> Stack : Python/Flask (back-end) & Vue.js (front-end)</p>
+            <div class="flex my-6">
+              <a class="flex shadow no-underline rounded pt-4 pb-3 px-6 bg-black text-white font-bold uppercase" href="http://trezzo.surge.sh">Visit&nbsp;<span class="hidden md:block">website</span></a>
+              <a class="shadow no-underline rounded pt-4 pb-3 px-6 bg-black text-white font-bold uppercase mx-6" href="http://github.com/nelsonkam/trezzo">source code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project my-8 flex justify-center relative items-start flex-wrap">
+        <img src="/assets/bestnine.png" class="w-full h-auto shadow max-w-xl h-auto rounded" alt="Trezzo's Website">
+        <div class="project-info w-full h-full justify-center items-center lg:absolute bg-white lg:hidden py-4" style="opacity: .95">
+          <div>
+            <p class="text-3xl my-3 font-bold">Best Nine &ndash; Unsplash</p>
+            <p class="max-w-sm text-xl">A spin-off of <a href="https://techcrunch.com/2017/12/31/what-were-your-best-nine-instagram-photos-from-2017/">Best Nine</a> based on Unsplash’s API <br> Stack : Node.js (back-end) & React (front-end)</p>
+            <div class="flex my-6">
+              <a class="flex shadow no-underline rounded pt-4 pb-3 px-6 bg-black text-white font-bold uppercase" href="https://bestnine-unsplash.herokuapp.com">Visit&nbsp;<span class="hidden md:block">website</span></a>
+              <a class="shadow no-underline rounded pt-4 pb-3 px-6 bg-black text-white font-bold uppercase mx-6" href="http://github.com/nelsonkam/bestnine-frontend">source code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project my-8 flex justify-center relative items-start flex-wrap">
+          <img src="/assets/jobby.png" class="w-full h-auto shadow max-w-xl h-auto rounded" alt="Trezzo's Website">
+          <div class="project-info w-full h-full justify-center items-center lg:absolute bg-white lg:hidden py-4" style="opacity: .95">
+            <div>
+              <p class="text-3xl my-3 font-bold">Jobby</p>
+              <p class="max-w-sm text-xl">Yet another job board<br> Stack : Node.js/Express & MongoDB</p>
+              <div class="flex my-6">
+                <a class="flex shadow no-underline rounded pt-4 pb-3 px-6 bg-black text-white font-bold uppercase" href="http://jobby-jobs.herokuapp.com">Visit&nbsp;<span class="hidden md:block">website</span></a>
+                <!-- <a class="shadow no-underline rounded pt-4 pb-3 px-6 bg-black text-white font-bold uppercase mx-6" href="http://github.com/nelsonkam/bestnine-frontend">source code</a> -->
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="project my-8 flex justify-center relative items-start flex-wrap">
+          <img src="/assets/digitix.png" class="w-full h-auto shadow max-w-xl h-auto rounded" alt="Trezzo's Website">
+          <div class="project-info w-full h-full justify-center items-center lg:absolute bg-white lg:hidden py-4" style="opacity: .95">
+            <div>
+              <p class="text-3xl my-3 font-bold">Digitix Store (defunct)</p>
+              <p class="max-w-sm text-xl">An ecommerce shop for smartphones and electronic accessories<br> Stack: Node.js & MongoDB (back-end) Vue.js (front-end)</p>
+              <div class="flex my-6">
+                <!-- <a class="flex shadow no-underline rounded pt-4 pb-3 px-6 bg-black text-white font-bold uppercase" href="http://jobby-jobs.herokuapp.com">Visit&nbsp;<span class="hidden md:block">website</span></a> -->
+                <!-- <a class="shadow no-underline rounded pt-4 pb-3 px-6 bg-black text-white font-bold uppercase mx-6" href="http://github.com/nelsonkam/bestnine-frontend">source code</a> -->
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="p-6">
+    <h2 class="text-center text-4xl my-4">Mockups & Concepts</h2>
+    <div class="my-12 w-full flex flex-col items-center">
+      <div class="project my-8 flex justify-center relative items-start flex-wrap">
+        <img src="/assets/tbd.png" class="w-full h-auto shadow max-w-xl rounded" alt="LeQube's Website">
+        <div class="project-info w-full h-full justify-center items-center lg:absolute bg-white lg:hidden py-4" style="opacity: .95">
+          <div>
+            <p class="text-3xl my-3 font-bold">TBD</p>
+            <p class="max-w-sm text-xl">A todo list on steroid. Prototyped but never implemented.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="my-12 w-full flex flex-col items-center">
+      <div class="project my-8 flex justify-center relative items-start flex-wrap">
+        <img src="/assets/foodie-travelers.png" class="w-full h-auto shadow max-w-xl rounded" alt="LeQube's Website">
+        <div class="project-info w-full h-full justify-center items-center lg:absolute bg-white lg:hidden py-4" style="opacity: .95">
+          <div>
+            <p class="text-3xl my-3 font-bold">Foodie Travelers</p>
+            <p class="max-w-sm text-xl">A community of people who travel to discover new meals around the world.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="h-12 bg-blue-lightest flex items-center justify-center w-screen">
+    made with <span class="mx-1" style="color: #e25555;"> ❤️ </span> on 🌏
+  </footer>
 </body>
 </html>
